@@ -12,11 +12,16 @@ h5 {
   margin-bottom: -0.5em;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .page {
   display: grid;
   background-color: #fcfcfc;
   width: 900px;
-  height: 1150px;
+  height: 1100px;
   margin: auto;
   box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
   grid-template-columns: repeat(4, 1fr);
@@ -78,13 +83,13 @@ h5 {
   box-shadow: 0px 20px 24px -24px;
 }
 
-.hobbies {
+.education {
   grid-row-start: 3;
   grid-row-end: 4;
   box-shadow: 0px 20px 24px -24px;
 }
 
-.education {
+.hobbies {
   grid-row-start: 4;
   grid-row-end: 5;
 }
@@ -92,9 +97,10 @@ h5 {
 .bio {
   grid-column-start: 2;
   grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-end: 5;
-  padding: 1em;
+  grid-row-start: 4;
+  grid-row-end: -1;
+  padding-left: 1em;
+  padding-right: 2em;
 }
 
 ul {
@@ -138,6 +144,71 @@ ul {
   grid-row-end: 3;
 }
 
+.projects {
+  margin-top: -2em;
+  grid-column-start: 2;
+  grid-column-end: -1;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  padding-left: 1em;
+  padding-right: 2em;
+}
 
+.tweeter {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin: 1rem -3rem 1rem 4.5rem;
+  background-color: #00bb;
+  border-radius: 15%;
+  text-align: center;
+  font-style: italic;
+  font-size: 4em;
+  color: white;
+  box-shadow: -10px 10px 28px -7px rgba(0,0,0,0.65);
+}
+
+.icon {
+  margin-top: 0.5em;
+}
+
+.white-font {
+  color: #fcfcfc;
+}
+
+.heavy {
+  font-weight: 800;
+}
+
+.chatty {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin: 1rem 5rem 1rem -3rem;
+  background-color: #f3f;
+  border-radius: 15%;
+  text-align: center;
+  font-size: 4em;
+  font-style: italic;
+  color: white;
+  box-shadow: 10px 10px 28px -7px rgba(0,0,0,0.65);
+}
+
+.tiny {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin: 2rem 1rem 0rem 1rem;
+  background-color: #FF2626;
+  border-radius: 15%;
+  text-align: center;
+  font-size: 4em;
+  font-style: italic;
+  color: white;
+  box-shadow: 0px 5px 41px -2px rgba(0,0,0,0.65);
+}
 
 /* 00bb f3f */
