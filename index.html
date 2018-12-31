@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="./stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded:400,600,800,900" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js"></script>
 
   </head>
   <body>
@@ -34,13 +34,13 @@
           <a href="https://www.linkedin.com/in/danieljameswhite/">LinkedIn</a>
         </p>
         <p>
-          <a href="mailto:danielredwhite@gmail.com?subject=feedback">Email</a>
+          <a href="mailto:danielredwhite@gmail.com">Email</a>
         </p>
       </div>
-      <div class="feature-text hobbies">
+      <!-- <div class="feature-text hobbies">
         <h3>Hobbies</h3>
         <p>Banjo / Bikes /<br/> Ceramics</p>
-      </div>
+      </div> -->
       <div class="feature-text education">
         <h3>Education</h3>
         <p>Lighthouse Labs Web Development Bootcamp</p>
@@ -102,9 +102,10 @@
       </div> -->
 
 
-
-      <div class="bio">
+      <div class="work-experience">
         <h4 class="underline">Work Experience</h4>
+      </div>
+      <div class="bio">
         <h5>E-Com Marketing Coordinator / Race Face & Easton Cycling / 2017 - 2018</h5>
         <p>
           Oversaw the design and build of a new B2C platform for the two brands. Designed and implemented the
@@ -122,39 +123,47 @@
       <div class="skills" href="https://www.github.com/danvangogh">
         <h4 class="underline">Skill Stack</h4>
       </div>
-        <div class="skills1 skills-container">
-          <h5>LANGUAGES</h5>
-          <ul>
-            <li>JavaScript</li>
-            <li>HTML/CSS</li>
-            <li>EJS</li>
-            <li>SQL</li>
-            <li>Ruby</li>
-            <li>Liquid (Shopify)</li>
-          </ul>
-        </div>
-        <div class="skills2 skills-container">
-          <h5>FRAMEWORKS/LIBRARIES</h5>
-          <ul>
-            <li>jQuery</li>
-            <li>Bootstrap</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>React</li>
-            <li>PostgreSQL</li>
-            <li>Rails</li>
-          </ul>
-        </div>
-        <div class="skills3 skills-container">
-          <h5>ADDITIONAL SKILLS</h5>
-          <ul>
-            <li>Adobe Photoshop</li>
-            <li>Adobe InDesign</li>
-            <li>Public Speaking</li>
-            <li>Shopify</li>
-            <li>Marketing</li>
-          </ul>
-        </div>
+      <div class="skills1 skills-container">
+        <h5>LANGUAGES</h5>
+        <ul>
+          <li>JavaScript</li>
+          <li>HTML/CSS</li>
+          <li>EJS</li>
+          <li>SQL</li>
+          <li>Ruby</li>
+          <li>Liquid (Shopify)</li>
+        </ul>
+      </div>
+      <div class="skills2 skills-container">
+        <h5>FRAMEWORKS/LIBRARIES</h5>
+        <ul>
+          <li>jQuery</li>
+          <li>Bootstrap</li>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>React</li>
+          <li>PostgreSQL</li>
+          <li>Rails</li>
+        </ul>
+      </div>
+      <div class="skills3 skills-container">
+        <h5>ADDITIONAL SKILLS</h5>
+        <ul>
+          <li>Adobe Photoshop</li>
+          <li>Adobe InDesign</li>
+          <li>Public Speaking</li>
+          <li>Shopify</li>
+          <li>Marketing</li>
+        </ul>
+      </div>
+      <div class="rfe-chart">
+        <canvas id="RFEChart" width="0" height="100"></canvas>
+        <script src="./chart.js"></script>
+      </div>
+      <div class="jt-chart">
+        <canvas id="JTChart" width="0" height="100"></canvas>
+        <script src="./chart.js"></script>
+      </div>
     </main>
   </body>
 </html>
